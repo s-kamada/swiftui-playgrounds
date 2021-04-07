@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D98E570C261D4D0F006FAF22 /* swiftui_playgroundsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E570B261D4D0F006FAF22 /* swiftui_playgroundsApp.swift */; };
-		D98E570E261D4D0F006FAF22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E570D261D4D0F006FAF22 /* ContentView.swift */; };
-		D98E5710261D4D10006FAF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98E570F261D4D10006FAF22 /* Assets.xcassets */; };
-		D98E5713261D4D10006FAF22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98E5712261D4D10006FAF22 /* Preview Assets.xcassets */; };
+		C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */; };
+		C20D77F024B665D7002E7AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77EF24B665D7002E7AEA /* ContentView.swift */; };
+		C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F124B665D8002E7AEA /* Assets.xcassets */; };
+		C20D77F524B665D8002E7AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */; };
+		C20D77FD24B668F4002E7AEA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77FC24B668F4002E7AEA /* CircleImage.swift */; };
+		C20D77FF24B67FB3002E7AEA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77FE24B67FB3002E7AEA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D98E5708261D4D0F006FAF22 /* swiftui-playgrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-playgrounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98E570B261D4D0F006FAF22 /* swiftui_playgroundsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_playgroundsApp.swift; sourceTree = "<group>"; };
-		D98E570D261D4D0F006FAF22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D98E570F261D4D10006FAF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D98E5712261D4D10006FAF22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D98E5714261D4D10006FAF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20D77EA24B665D7002E7AEA /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
+		C20D77EF24B665D7002E7AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C20D77F124B665D8002E7AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C20D77F624B665D8002E7AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20D77FC24B668F4002E7AEA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C20D77FE24B67FB3002E7AEA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C2AC4E8924DE1856005E019B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D37C64DBD0434958E334DB7A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D98E5705261D4D0F006FAF22 /* Frameworks */ = {
+		C20D77E724B665D7002E7AEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,77 +40,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D98E56FF261D4D0F006FAF22 = {
+		201EA7EE79E5C62AEE7F9426 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
-				D98E570A261D4D0F006FAF22 /* swiftui-playgrounds */,
-				D98E5709261D4D0F006FAF22 /* Products */,
+				D37C64DBD0434958E334DB7A /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		C20D77E124B665D7002E7AEA = {
+			isa = PBXGroup;
+			children = (
+				C2AC4E8924DE1856005E019B /* README.md */,
+				C20D77EC24B665D7002E7AEA /* Landmarks */,
+				C20D77EB24B665D7002E7AEA /* Products */,
+				EE393712D7B336982239DD17 /* Configuration */,
+				201EA7EE79E5C62AEE7F9426 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
-		D98E5709261D4D0F006FAF22 /* Products */ = {
+		C20D77EB24B665D7002E7AEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D98E5708261D4D0F006FAF22 /* swiftui-playgrounds.app */,
+				C20D77EA24B665D7002E7AEA /* Landmarks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D98E570A261D4D0F006FAF22 /* swiftui-playgrounds */ = {
+		C20D77EC24B665D7002E7AEA /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				D98E570B261D4D0F006FAF22 /* swiftui_playgroundsApp.swift */,
-				D98E570D261D4D0F006FAF22 /* ContentView.swift */,
-				D98E570F261D4D10006FAF22 /* Assets.xcassets */,
-				D98E5714261D4D10006FAF22 /* Info.plist */,
-				D98E5711261D4D10006FAF22 /* Preview Content */,
+				C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */,
+				C20D77EF24B665D7002E7AEA /* ContentView.swift */,
+				C20D77FC24B668F4002E7AEA /* CircleImage.swift */,
+				C20D77FE24B67FB3002E7AEA /* MapView.swift */,
+				C20D77F124B665D8002E7AEA /* Assets.xcassets */,
+				C20D77F624B665D8002E7AEA /* Info.plist */,
+				C20D77F324B665D8002E7AEA /* Preview Content */,
 			);
-			path = "swiftui-playgrounds";
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
-		D98E5711261D4D10006FAF22 /* Preview Content */ = {
+		C20D77F324B665D8002E7AEA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D98E5712261D4D10006FAF22 /* Preview Assets.xcassets */,
+				C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE393712D7B336982239DD17 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D98E5707261D4D0F006FAF22 /* swiftui-playgrounds */ = {
+		C20D77E924B665D7002E7AEA /* Landmarks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D98E5717261D4D10006FAF22 /* Build configuration list for PBXNativeTarget "swiftui-playgrounds" */;
+			buildConfigurationList = C20D77F924B665D8002E7AEA /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
-				D98E5704261D4D0F006FAF22 /* Sources */,
-				D98E5705261D4D0F006FAF22 /* Frameworks */,
-				D98E5706261D4D0F006FAF22 /* Resources */,
+				C20D77E624B665D7002E7AEA /* Sources */,
+				C20D77E724B665D7002E7AEA /* Frameworks */,
+				C20D77E824B665D7002E7AEA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "swiftui-playgrounds";
-			productName = "swiftui-playgrounds";
-			productReference = D98E5708261D4D0F006FAF22 /* swiftui-playgrounds.app */;
+			name = Landmarks;
+			productName = Landmarks;
+			productReference = C20D77EA24B665D7002E7AEA /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D98E5700261D4D0F006FAF22 /* Project object */ = {
+		C20D77E224B665D7002E7AEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					D98E5707261D4D0F006FAF22 = {
-						CreatedOnToolsVersion = 12.3;
+					C20D77E924B665D7002E7AEA = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = D98E5703261D4D0F006FAF22 /* Build configuration list for PBXProject "swiftui-playgrounds" */;
+			buildConfigurationList = C20D77E524B665D7002E7AEA /* Build configuration list for PBXProject "CreatingAndCombiningViews" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,43 +141,46 @@
 				en,
 				Base,
 			);
-			mainGroup = D98E56FF261D4D0F006FAF22;
-			productRefGroup = D98E5709261D4D0F006FAF22 /* Products */;
+			mainGroup = C20D77E124B665D7002E7AEA;
+			productRefGroup = C20D77EB24B665D7002E7AEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D98E5707261D4D0F006FAF22 /* swiftui-playgrounds */,
+				C20D77E924B665D7002E7AEA /* Landmarks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D98E5706261D4D0F006FAF22 /* Resources */ = {
+		C20D77E824B665D7002E7AEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98E5713261D4D10006FAF22 /* Preview Assets.xcassets in Resources */,
-				D98E5710261D4D10006FAF22 /* Assets.xcassets in Resources */,
+				C20D77F524B665D8002E7AEA /* Preview Assets.xcassets in Resources */,
+				C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D98E5704261D4D0F006FAF22 /* Sources */ = {
+		C20D77E624B665D7002E7AEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98E570E261D4D0F006FAF22 /* ContentView.swift in Sources */,
-				D98E570C261D4D0F006FAF22 /* swiftui_playgroundsApp.swift in Sources */,
+				C20D77F024B665D7002E7AEA /* ContentView.swift in Sources */,
+				C20D77FF24B67FB3002E7AEA /* MapView.swift in Sources */,
+				C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */,
+				C20D77FD24B668F4002E7AEA /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D98E5715261D4D10006FAF22 /* Debug */ = {
+		C20D77F724B665D8002E7AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -197,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -207,8 +240,9 @@
 			};
 			name = Debug;
 		};
-		D98E5716261D4D10006FAF22 /* Release */ = {
+		C20D77F824B665D8002E7AEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -252,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,45 +296,49 @@
 			};
 			name = Release;
 		};
-		D98E5718261D4D10006FAF22 /* Debug */ = {
+		C20D77FA24B665D8002E7AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftui-playgrounds/Preview Content\"";
-				DEVELOPMENT_TEAM = 5GX5QFC8X3;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftui-playgrounds/Info.plist";
+				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "skamada.swiftui-playgrounds";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Landmarks${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D98E5719261D4D10006FAF22 /* Release */ = {
+		C20D77FB24B665D8002E7AEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftui-playgrounds/Preview Content\"";
-				DEVELOPMENT_TEAM = 5GX5QFC8X3;
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftui-playgrounds/Info.plist";
+				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "skamada.swiftui-playgrounds";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Landmarks${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D98E5703261D4D0F006FAF22 /* Build configuration list for PBXProject "swiftui-playgrounds" */ = {
+		C20D77E524B665D7002E7AEA /* Build configuration list for PBXProject "CreatingAndCombiningViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D98E5715261D4D10006FAF22 /* Debug */,
-				D98E5716261D4D10006FAF22 /* Release */,
+				C20D77F724B665D8002E7AEA /* Debug */,
+				C20D77F824B665D8002E7AEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D98E5717261D4D10006FAF22 /* Build configuration list for PBXNativeTarget "swiftui-playgrounds" */ = {
+		C20D77F924B665D8002E7AEA /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D98E5718261D4D10006FAF22 /* Debug */,
-				D98E5719261D4D10006FAF22 /* Release */,
+				C20D77FA24B665D8002E7AEA /* Debug */,
+				C20D77FB24B665D8002E7AEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D98E5700261D4D0F006FAF22 /* Project object */;
+	rootObject = C20D77E224B665D7002E7AEA /* Project object */;
 }
